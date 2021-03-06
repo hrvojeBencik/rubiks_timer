@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen>
     _resetButtonController =
         AnimationController(vsync: this, duration: Duration(milliseconds: 200));
     _resetButtonAnimation = ColorTween(
-            begin: Color(0xFF51c2d5), end: Color(0xFF51c2d5).withOpacity(0.4))
+            begin: Color(0xFF4169FF), end: Color(0xFF4169FF).withOpacity(0.4))
         .animate(_resetButtonController);
 
     _resetButtonAnimation.addListener(() {
